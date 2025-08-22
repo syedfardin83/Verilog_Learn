@@ -3,7 +3,7 @@ module half_adder_basic(A,B,S,C);
 input A,B;
 output S,C;
 
-Wire wn1, wn2, wa1, wa2;
+wire wn1, wn2, wa1, wa2;
 
 //  The XOR gate (Finding the sum)
 not n1(wn1,A);
